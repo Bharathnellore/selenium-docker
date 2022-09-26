@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-15T09:20:33Z" name="book-flight-module" finished-at="2022-09-15T09:21:18Z" duration-ms="44866">
+    <groups>
+    </groups>
+    <test started-at="2022-09-15T09:20:33Z" name="book-flight-1" finished-at="2022-09-15T09:20:47Z" duration-ms="13738">
+      <class name="com.udemy.selenium.docker.selenium_docker.BookFlightTest">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:33Z" name="setupDriver" finished-at="2022-09-15T09:20:38Z" duration-ms="5003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dbb50f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:38Z" name="setupParameters" finished-at="2022-09-15T09:20:38Z" depends-on-methods="tests.BaseTest.setupDriver" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$584 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method signature="registrationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:38Z" name="registrationPage" finished-at="2022-09-15T09:20:45Z" duration-ms="6068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method signature="registrationConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:45Z" name="registrationConfirmationPage" finished-at="2022-09-15T09:20:45Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationPage" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method signature="flightDetailsPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:45Z" name="flightDetailsPage" finished-at="2022-09-15T09:20:46Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationConfirmationPage" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method signature="findFlightPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:46Z" name="findFlightPage" finished-at="2022-09-15T09:20:47Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.flightDetailsPage" duration-ms="364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method signature="flightConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:47Z" name="flightConfirmationPage" finished-at="2022-09-15T09:20:47Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.findFlightPage" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@49c386c8]" started-at="2022-09-15T09:20:47Z" name="quitBrowser" finished-at="2022-09-15T09:20:47Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.udemy.selenium.docker.selenium_docker.BookFlightTest -->
+    </test> <!-- book-flight-1 -->
+    <test started-at="2022-09-15T09:20:47Z" name="book-flight-2" finished-at="2022-09-15T09:20:57Z" duration-ms="9526">
+      <class name="com.udemy.selenium.docker.selenium_docker.BookFlightTest">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:47Z" name="setupDriver" finished-at="2022-09-15T09:20:48Z" duration-ms="831" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@74f827ad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:48Z" name="setupParameters" finished-at="2022-09-15T09:20:48Z" depends-on-methods="tests.BaseTest.setupDriver" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1169 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method signature="registrationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:48Z" name="registrationPage" finished-at="2022-09-15T09:20:54Z" duration-ms="5796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method signature="registrationConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:54Z" name="registrationConfirmationPage" finished-at="2022-09-15T09:20:54Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationPage" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method signature="flightDetailsPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:54Z" name="flightDetailsPage" finished-at="2022-09-15T09:20:56Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationConfirmationPage" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method signature="findFlightPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:56Z" name="findFlightPage" finished-at="2022-09-15T09:20:56Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.flightDetailsPage" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method signature="flightConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:56Z" name="flightConfirmationPage" finished-at="2022-09-15T09:20:57Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.findFlightPage" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@69b2283a]" started-at="2022-09-15T09:20:57Z" name="quitBrowser" finished-at="2022-09-15T09:20:57Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.udemy.selenium.docker.selenium_docker.BookFlightTest -->
+    </test> <!-- book-flight-2 -->
+    <test started-at="2022-09-15T09:20:57Z" name="book-flight-3" finished-at="2022-09-15T09:21:06Z" duration-ms="9015">
+      <class name="com.udemy.selenium.docker.selenium_docker.BookFlightTest">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:20:57Z" name="setupDriver" finished-at="2022-09-15T09:20:58Z" duration-ms="1339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@73c3cd09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:20:58Z" name="setupParameters" finished-at="2022-09-15T09:20:58Z" depends-on-methods="tests.BaseTest.setupDriver" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1753 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method signature="registrationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:20:58Z" name="registrationPage" finished-at="2022-09-15T09:21:03Z" duration-ms="4849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method signature="registrationConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:21:03Z" name="registrationConfirmationPage" finished-at="2022-09-15T09:21:03Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationPage" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method signature="flightDetailsPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:21:03Z" name="flightDetailsPage" finished-at="2022-09-15T09:21:05Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationConfirmationPage" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method signature="findFlightPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:21:05Z" name="findFlightPage" finished-at="2022-09-15T09:21:05Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.flightDetailsPage" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method signature="flightConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:21:05Z" name="flightConfirmationPage" finished-at="2022-09-15T09:21:06Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.findFlightPage" duration-ms="410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@4c9f8c13]" started-at="2022-09-15T09:21:06Z" name="quitBrowser" finished-at="2022-09-15T09:21:06Z" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.udemy.selenium.docker.selenium_docker.BookFlightTest -->
+    </test> <!-- book-flight-3 -->
+    <test started-at="2022-09-15T09:21:06Z" name="book-flight-4" finished-at="2022-09-15T09:21:18Z" duration-ms="12539">
+      <class name="com.udemy.selenium.docker.selenium_docker.BookFlightTest">
+        <test-method is-config="true" signature="setupDriver(org.testng.ITestContext)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:06Z" name="setupDriver" finished-at="2022-09-15T09:21:08Z" duration-ms="2693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a8a0099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method is-config="true" signature="setupParameters(java.lang.String, java.lang.String)[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:08Z" name="setupParameters" finished-at="2022-09-15T09:21:08Z" depends-on-methods="tests.BaseTest.setupDriver" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$2338 USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupParameters -->
+        <test-method signature="registrationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:08Z" name="registrationPage" finished-at="2022-09-15T09:21:15Z" duration-ms="6348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationPage -->
+        <test-method signature="registrationConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:15Z" name="registrationConfirmationPage" finished-at="2022-09-15T09:21:15Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationPage" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationPage -->
+        <test-method signature="flightDetailsPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:15Z" name="flightDetailsPage" finished-at="2022-09-15T09:21:17Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.registrationConfirmationPage" duration-ms="2163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailsPage -->
+        <test-method signature="findFlightPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:17Z" name="findFlightPage" finished-at="2022-09-15T09:21:18Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.flightDetailsPage" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightPage -->
+        <test-method signature="flightConfirmationPage()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:18Z" name="flightConfirmationPage" finished-at="2022-09-15T09:21:18Z" depends-on-methods="com.udemy.selenium.docker.selenium_docker.BookFlightTest.findFlightPage" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationPage -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:com.udemy.selenium.docker.selenium_docker.BookFlightTest@3c419631]" started-at="2022-09-15T09:21:18Z" name="quitBrowser" finished-at="2022-09-15T09:21:18Z" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.udemy.selenium.docker.selenium_docker.BookFlightTest -->
+    </test> <!-- book-flight-4 -->
+  </suite> <!-- book-flight-module -->
+</testng-results>

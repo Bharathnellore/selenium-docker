@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<listeners>
+<listener class-name="test.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="Personal loan">
+  <parameter name="URL" value="personalloan.com"/>
+    <classes>
+      <class name="test.Day1"/>
+      <class name="test.Day2"/>
+       <class name="test.Day4">
+       <methods>
+       <include name="loginApihomeloan"></include>
+       </methods>
+       </class>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="carloan">
+  <parameter name="URL" value="carloan.com"/>
+    <classes>
+      <class name="test.Day3">
+      <methods>
+      <exclude name="mobilelogincarloan"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
